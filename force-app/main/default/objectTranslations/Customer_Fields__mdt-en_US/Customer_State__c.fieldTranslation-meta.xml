@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the API name of the field that holds the customer&apos;s state information. --></help>
+    <label><!-- Customer State --></label>
+    <name>Customer_State__c</name>
+</CustomFieldTranslation>
