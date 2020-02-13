@@ -1,36 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Space_Management</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>customerServices</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>reservationManagerController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Customer_City__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Customer_Email__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Customer_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Customer_State__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Customer_Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_City__mdt.Sobject_Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Customer_Fields__mdt.Customer_City__c</field>
@@ -62,11 +45,12 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Customer_City__mdt-Customer City Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Customer_Fields__mdt-Customer Fields Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Reservation_Manager</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
